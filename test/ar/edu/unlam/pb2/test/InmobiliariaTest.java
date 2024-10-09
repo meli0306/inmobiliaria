@@ -21,6 +21,7 @@ public class InmobiliariaTest {
 		
 		inmobiliaria.darDeAltaPropiedad(casa);
 		
+		
 		assertEquals(1, inmobiliaria.getPropiedades().size());
 	}
 	
